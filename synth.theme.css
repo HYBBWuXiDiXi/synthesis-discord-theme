@@ -1917,6 +1917,40 @@ body {
   z-index: 1;
 }
 
+/* window controls */
+.withFrame-2dL45i {
+    height: 20px;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg > svg {
+    display: none;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg {
+    top: 0;
+    width: 12px;
+    height: 12px;
+    margin: 2px 12px 0px 0px;
+    border-radius: 12px;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    transition: 0.1s;
+}
+.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
+    background-color: hsl(0, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
+    background-color: hsl(120, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
+    background-color: hsl(50, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY > div:hover::after {
+    transform: scale(1.1);
+}
+
 .wordmark-2u86JB {
   display: none;
 }
