@@ -49,7 +49,7 @@ code,
   --modal-footer-background: rgb(84, 63, 251);
   --background-modifier-hover: rgba(0, 0, 0, 0.15);
   --background-modifier-active: rgba(255, 165, 0, 0.7);
-  --background-modifier-selected: rgba(255, 165, 0, 0.5);
+  --background-modifier-selected: rgba(236, 78, 255, 0.5);
   --background-modifier-accent: rgba(255, 165, 0, 0.5);
   --deprecated-card-bg: rgba(20, 6, 36, 0.7);
   --deprecated-card-editable-bg: rgba(20, 6, 36, 0.7);
